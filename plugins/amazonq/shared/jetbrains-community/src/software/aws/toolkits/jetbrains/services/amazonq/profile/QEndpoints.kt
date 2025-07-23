@@ -11,11 +11,11 @@ import software.aws.toolkits.core.utils.warn
 data class QRegionEndpoint(val region: String, val endpoint: String)
 
 object QDefaultServiceConfig {
-    const val REGION = "us-east-1"
-    const val ENDPOINT = "https://codewhisperer.us-east-1.amazonaws.com/"
+    const val REGION = "us-west-2"
+    const val ENDPOINT = "https://rts.alpha-us-west-2.codewhisperer.ai.aws.dev/"
 
     val ENDPOINT_MAP = mapOf(
-        "us-east-1" to "https://q.us-east-1.amazonaws.com/",
+        "us-west-2" to "https://rts.alpha-us-west-2.codewhisperer.ai.aws.dev/",
         "eu-central-1" to "https://q.eu-central-1.amazonaws.com/"
     )
 }
